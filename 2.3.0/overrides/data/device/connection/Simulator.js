@@ -3,6 +3,7 @@
  *
  */
 Ext.define('Ext.override.device.connection.Simulator',{
+    override : 'Ext.device.connection.Simulator',
     constructor: function () {
         var me = this;
         window.addEventListener('online', function () {

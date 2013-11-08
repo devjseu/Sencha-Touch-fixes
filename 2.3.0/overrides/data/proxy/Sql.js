@@ -1,9 +1,9 @@
 /**
  * Overrides sql driver for local storages adding support for mapping property in models
- * and
+ * and real count
  */
 Ext.define('Ext.override.data.proxy.Sql', {
-    override: 'Ext.data.Store',
+    override: 'Ext.data.proxy.Sql',
     initialize: function () {
         this.callOverridden(arguments);
     },
